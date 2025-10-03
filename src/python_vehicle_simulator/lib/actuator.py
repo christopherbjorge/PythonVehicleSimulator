@@ -131,7 +131,7 @@ class thruster:
                               (m/s for linear, rad/s for angular)
             nu (numpy array): Velocity [vx, vy, vz, p, q, r] 
                               (m/s for linear, rad/s for angular) 
-
+dynamics
         Returns:
             numpy array: tau vector [Fx, Fy, Fz, Tx, Ty, Tz] (N) and (N*m) in body-fixed frame
         """
